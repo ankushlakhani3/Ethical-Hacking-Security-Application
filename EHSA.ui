@@ -1,0 +1,1307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>888</width>
+    <height>823</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Ethical hacking &amp; security application (EHSA)</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <selectedon>icon.png</selectedon>
+   </iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>864</width>
+         <height>774</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="1" column="0">
+         <widget class="QTabWidget" name="tabWidget">
+          <property name="font">
+           <font>
+            <family>Bahnschrift SemiLight</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="currentIndex">
+           <number>5</number>
+          </property>
+          <widget class="QWidget" name="ps">
+           <attribute name="title">
+            <string>Port scan</string>
+           </attribute>
+           <widget class="QLineEdit" name="ps_lineEdit_1">
+            <property name="geometry">
+             <rect>
+              <x>430</x>
+              <y>40</y>
+              <width>181</width>
+              <height>31</height>
+             </rect>
+            </property>
+           </widget>
+           <widget class="QLabel" name="ps_label_3">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>100</y>
+              <width>71</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Target IP</string>
+            </property>
+            <property name="scaledContents">
+             <bool>false</bool>
+            </property>
+           </widget>
+           <widget class="QLineEdit" name="ps_lineEdit_2">
+            <property name="geometry">
+             <rect>
+              <x>130</x>
+              <y>100</y>
+              <width>181</width>
+              <height>31</height>
+             </rect>
+            </property>
+           </widget>
+           <widget class="QComboBox" name="ps_comboBox">
+            <property name="geometry">
+             <rect>
+              <x>130</x>
+              <y>40</y>
+              <width>181</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <item>
+             <property name="text">
+              <string>well khown port</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>custom port</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string/>
+             </property>
+            </item>
+           </widget>
+           <widget class="QLabel" name="ps_label_2">
+            <property name="geometry">
+             <rect>
+              <x>330</x>
+              <y>40</y>
+              <width>81</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Enter port</string>
+            </property>
+            <property name="scaledContents">
+             <bool>false</bool>
+            </property>
+           </widget>
+           <widget class="QLabel" name="ps_label_1">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>40</y>
+              <width>111</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Select option</string>
+            </property>
+            <property name="scaledContents">
+             <bool>false</bool>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="ps_pushButton">
+            <property name="geometry">
+             <rect>
+              <x>330</x>
+              <y>100</y>
+              <width>121</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>Attack</string>
+            </property>
+           </widget>
+           <widget class="QScrollArea" name="ps_scrollArea">
+            <property name="geometry">
+             <rect>
+              <x>9</x>
+              <y>176</y>
+              <width>811</width>
+              <height>501</height>
+             </rect>
+            </property>
+            <property name="widgetResizable">
+             <bool>true</bool>
+            </property>
+            <widget class="QWidget" name="scrollAreaWidgetContents_2">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>809</width>
+               <height>499</height>
+              </rect>
+             </property>
+             <widget class="QTextBrowser" name="ps_textBrowser">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>10</y>
+                <width>791</width>
+                <height>481</height>
+               </rect>
+              </property>
+             </widget>
+            </widget>
+           </widget>
+          </widget>
+          <widget class="QWidget" name="arps">
+           <attribute name="title">
+            <string>Arp scan</string>
+           </attribute>
+           <widget class="QScrollArea" name="arps_scrollArea">
+            <property name="geometry">
+             <rect>
+              <x>9</x>
+              <y>176</y>
+              <width>811</width>
+              <height>501</height>
+             </rect>
+            </property>
+            <property name="widgetResizable">
+             <bool>true</bool>
+            </property>
+            <widget class="QWidget" name="scrollAreaWidgetContents_11">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>809</width>
+               <height>499</height>
+              </rect>
+             </property>
+             <widget class="QTextBrowser" name="arps_textBrowser">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>10</y>
+                <width>791</width>
+                <height>481</height>
+               </rect>
+              </property>
+             </widget>
+            </widget>
+           </widget>
+           <widget class="QComboBox" name="arps_comboBox">
+            <property name="geometry">
+             <rect>
+              <x>130</x>
+              <y>40</y>
+              <width>181</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <item>
+             <property name="text">
+              <string>Ethernet</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Wi-Fi</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Local Area Connection* 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Local Area Connection* 12</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>VMware Network Adapter VMnet1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>VMware Network Adapter VMnet8</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Loopback Pseudo-Interface 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string/>
+             </property>
+            </item>
+           </widget>
+           <widget class="QLineEdit" name="arps_lineEdit">
+            <property name="geometry">
+             <rect>
+              <x>130</x>
+              <y>100</y>
+              <width>181</width>
+              <height>31</height>
+             </rect>
+            </property>
+           </widget>
+           <widget class="QLabel" name="arps_label_1">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>40</y>
+              <width>111</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Select option</string>
+            </property>
+            <property name="scaledContents">
+             <bool>false</bool>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="arps_pushButton">
+            <property name="geometry">
+             <rect>
+              <x>360</x>
+              <y>40</y>
+              <width>121</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>Attack</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="arps_label_2">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>100</y>
+              <width>121</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Target IP range</string>
+            </property>
+            <property name="scaledContents">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QWidget" name="mitm">
+           <attribute name="title">
+            <string>MITM</string>
+           </attribute>
+           <widget class="QScrollArea" name="mitm_scrollArea">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>176</y>
+              <width>811</width>
+              <height>501</height>
+             </rect>
+            </property>
+            <property name="widgetResizable">
+             <bool>true</bool>
+            </property>
+            <widget class="QWidget" name="scrollAreaWidgetContents_12">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>809</width>
+               <height>499</height>
+              </rect>
+             </property>
+             <widget class="QTextBrowser" name="mitm_textBrowser">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>10</y>
+                <width>791</width>
+                <height>481</height>
+               </rect>
+              </property>
+             </widget>
+            </widget>
+           </widget>
+           <widget class="QLineEdit" name="mitm_lineEdit_2">
+            <property name="geometry">
+             <rect>
+              <x>130</x>
+              <y>100</y>
+              <width>181</width>
+              <height>31</height>
+             </rect>
+            </property>
+           </widget>
+           <widget class="QLabel" name="mitm_label_2">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>100</y>
+              <width>101</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Gateway IP</string>
+            </property>
+            <property name="scaledContents">
+             <bool>false</bool>
+            </property>
+           </widget>
+           <widget class="QLineEdit" name="mitm_lineEdit_1">
+            <property name="geometry">
+             <rect>
+              <x>131</x>
+              <y>40</y>
+              <width>181</width>
+              <height>31</height>
+             </rect>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="mitm_pushButton">
+            <property name="geometry">
+             <rect>
+              <x>350</x>
+              <y>40</y>
+              <width>121</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>Attack</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="mitm_label_1">
+            <property name="geometry">
+             <rect>
+              <x>11</x>
+              <y>40</y>
+              <width>71</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Target IP</string>
+            </property>
+            <property name="scaledContents">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QWidget" name="dos">
+           <attribute name="title">
+            <string>DOS</string>
+           </attribute>
+           <widget class="QScrollArea" name="dos_scrollArea">
+            <property name="geometry">
+             <rect>
+              <x>9</x>
+              <y>176</y>
+              <width>811</width>
+              <height>501</height>
+             </rect>
+            </property>
+            <property name="widgetResizable">
+             <bool>true</bool>
+            </property>
+            <widget class="QWidget" name="scrollAreaWidgetContents_23">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>809</width>
+               <height>499</height>
+              </rect>
+             </property>
+             <widget class="QTextBrowser" name="dos_textBrowser">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>10</y>
+                <width>791</width>
+                <height>481</height>
+               </rect>
+              </property>
+             </widget>
+            </widget>
+           </widget>
+           <widget class="QComboBox" name="dos_comboBox">
+            <property name="geometry">
+             <rect>
+              <x>130</x>
+              <y>40</y>
+              <width>181</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <item>
+             <property name="text">
+              <string>Slowloris</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Requests</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string/>
+             </property>
+            </item>
+           </widget>
+           <widget class="QLineEdit" name="dos_lineEdit">
+            <property name="geometry">
+             <rect>
+              <x>130</x>
+              <y>100</y>
+              <width>181</width>
+              <height>31</height>
+             </rect>
+            </property>
+           </widget>
+           <widget class="QLabel" name="dos_label_1">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>40</y>
+              <width>111</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Select option</string>
+            </property>
+            <property name="scaledContents">
+             <bool>false</bool>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="dos_pushButton">
+            <property name="geometry">
+             <rect>
+              <x>600</x>
+              <y>90</y>
+              <width>121</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>Attack</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="dos_label_2">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>100</y>
+              <width>71</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Target IP</string>
+            </property>
+            <property name="scaledContents">
+             <bool>false</bool>
+            </property>
+           </widget>
+           <widget class="QLineEdit" name="dos_lineEdit_2">
+            <property name="geometry">
+             <rect>
+              <x>400</x>
+              <y>100</y>
+              <width>181</width>
+              <height>31</height>
+             </rect>
+            </property>
+           </widget>
+           <widget class="QLabel" name="dos_label_4">
+            <property name="geometry">
+             <rect>
+              <x>320</x>
+              <y>100</y>
+              <width>71</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Port</string>
+            </property>
+            <property name="scaledContents">
+             <bool>false</bool>
+            </property>
+           </widget>
+           <widget class="QLineEdit" name="dos_lineEdit_1">
+            <property name="geometry">
+             <rect>
+              <x>490</x>
+              <y>40</y>
+              <width>181</width>
+              <height>31</height>
+             </rect>
+            </property>
+           </widget>
+           <widget class="QLabel" name="dos_label_3">
+            <property name="geometry">
+             <rect>
+              <x>320</x>
+              <y>40</y>
+              <width>161</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Threads (default 200)</string>
+            </property>
+            <property name="scaledContents">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QWidget" name="ddos">
+           <attribute name="title">
+            <string>DDOS</string>
+           </attribute>
+           <widget class="QScrollArea" name="ddos_scrollArea">
+            <property name="geometry">
+             <rect>
+              <x>9</x>
+              <y>176</y>
+              <width>811</width>
+              <height>501</height>
+             </rect>
+            </property>
+            <property name="widgetResizable">
+             <bool>true</bool>
+            </property>
+            <widget class="QWidget" name="scrollAreaWidgetContents_24">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>809</width>
+               <height>499</height>
+              </rect>
+             </property>
+             <widget class="QTextBrowser" name="ddos_textBrowser">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>10</y>
+                <width>791</width>
+                <height>481</height>
+               </rect>
+              </property>
+             </widget>
+            </widget>
+           </widget>
+           <widget class="QComboBox" name="ddos_comboBox">
+            <property name="geometry">
+             <rect>
+              <x>130</x>
+              <y>40</y>
+              <width>181</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <item>
+             <property name="text">
+              <string>SYNflood</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string/>
+             </property>
+            </item>
+           </widget>
+           <widget class="QLineEdit" name="ddos_lineEdit">
+            <property name="geometry">
+             <rect>
+              <x>130</x>
+              <y>100</y>
+              <width>181</width>
+              <height>31</height>
+             </rect>
+            </property>
+           </widget>
+           <widget class="QLabel" name="ddos_label_1">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>40</y>
+              <width>111</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Select option</string>
+            </property>
+            <property name="scaledContents">
+             <bool>false</bool>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="ddos_pushButton">
+            <property name="geometry">
+             <rect>
+              <x>340</x>
+              <y>100</y>
+              <width>121</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>Attack</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="ddos_label_2">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>100</y>
+              <width>71</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Target IP</string>
+            </property>
+            <property name="scaledContents">
+             <bool>false</bool>
+            </property>
+           </widget>
+           <widget class="QLabel" name="ddos_label_3">
+            <property name="geometry">
+             <rect>
+              <x>320</x>
+              <y>40</y>
+              <width>161</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Threads (default 100)</string>
+            </property>
+            <property name="scaledContents">
+             <bool>false</bool>
+            </property>
+           </widget>
+           <widget class="QLineEdit" name="ddos_lineEdit_1">
+            <property name="geometry">
+             <rect>
+              <x>490</x>
+              <y>40</y>
+              <width>181</width>
+              <height>31</height>
+             </rect>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QWidget" name="backdoor">
+           <attribute name="title">
+            <string>Backdoor</string>
+           </attribute>
+           <widget class="QScrollArea" name="backdoor_scrollArea">
+            <property name="geometry">
+             <rect>
+              <x>9</x>
+              <y>176</y>
+              <width>811</width>
+              <height>501</height>
+             </rect>
+            </property>
+            <property name="widgetResizable">
+             <bool>true</bool>
+            </property>
+            <widget class="QWidget" name="scrollAreaWidgetContents_14">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>809</width>
+               <height>499</height>
+              </rect>
+             </property>
+             <widget class="QTextBrowser" name="backdoor_textBrowser">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>10</y>
+                <width>791</width>
+                <height>481</height>
+               </rect>
+              </property>
+             </widget>
+            </widget>
+           </widget>
+           <widget class="QLineEdit" name="backdoor_lineEdit">
+            <property name="geometry">
+             <rect>
+              <x>150</x>
+              <y>110</y>
+              <width>261</width>
+              <height>31</height>
+             </rect>
+            </property>
+           </widget>
+           <widget class="QComboBox" name="backdoor_comboBox">
+            <property name="geometry">
+             <rect>
+              <x>610</x>
+              <y>30</y>
+              <width>201</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <item>
+             <property name="text">
+              <string>download</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>upload</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>get</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>screenshot</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>keylog_start</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>keylog_dump</string>
+             </property>
+            </item>
+           </widget>
+           <widget class="QLabel" name="backdoor_label_3">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>110</y>
+              <width>131</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Path(if nedeed)</string>
+            </property>
+            <property name="scaledContents">
+             <bool>false</bool>
+            </property>
+           </widget>
+           <widget class="QLabel" name="backdoor_label_2">
+            <property name="geometry">
+             <rect>
+              <x>460</x>
+              <y>30</y>
+              <width>111</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Select function</string>
+            </property>
+            <property name="scaledContents">
+             <bool>false</bool>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="backdoor_pushButton_2">
+            <property name="geometry">
+             <rect>
+              <x>470</x>
+              <y>100</y>
+              <width>121</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>Get access</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="backdoor_label_1">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>30</y>
+              <width>301</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Start listening for incoming connection </string>
+            </property>
+            <property name="scaledContents">
+             <bool>false</bool>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="backdoor_pushButton_1">
+            <property name="geometry">
+             <rect>
+              <x>320</x>
+              <y>30</y>
+              <width>121</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>Start</string>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QWidget" name="xss">
+           <attribute name="title">
+            <string>XSS</string>
+           </attribute>
+           <widget class="QLabel" name="xss_label_3">
+            <property name="geometry">
+             <rect>
+              <x>330</x>
+              <y>40</y>
+              <width>121</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Depth to crawl</string>
+            </property>
+            <property name="scaledContents">
+             <bool>false</bool>
+            </property>
+           </widget>
+           <widget class="QScrollArea" name="xss_scrollArea">
+            <property name="geometry">
+             <rect>
+              <x>9</x>
+              <y>176</y>
+              <width>811</width>
+              <height>501</height>
+             </rect>
+            </property>
+            <property name="widgetResizable">
+             <bool>true</bool>
+            </property>
+            <widget class="QWidget" name="scrollAreaWidgetContents_3">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>809</width>
+               <height>499</height>
+              </rect>
+             </property>
+             <widget class="QTextBrowser" name="xss_textBrowser">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>10</y>
+                <width>791</width>
+                <height>481</height>
+               </rect>
+              </property>
+             </widget>
+            </widget>
+           </widget>
+           <widget class="QPushButton" name="xss_pushButton">
+            <property name="geometry">
+             <rect>
+              <x>330</x>
+              <y>100</y>
+              <width>121</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>Attack</string>
+            </property>
+           </widget>
+           <widget class="QLineEdit" name="xss_lineEdit_2">
+            <property name="geometry">
+             <rect>
+              <x>130</x>
+              <y>100</y>
+              <width>181</width>
+              <height>31</height>
+             </rect>
+            </property>
+           </widget>
+           <widget class="QLabel" name="xss_label_2">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>100</y>
+              <width>111</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Payload(opt)</string>
+            </property>
+            <property name="scaledContents">
+             <bool>false</bool>
+            </property>
+           </widget>
+           <widget class="QLineEdit" name="xss_lineEdit_1">
+            <property name="geometry">
+             <rect>
+              <x>130</x>
+              <y>40</y>
+              <width>181</width>
+              <height>31</height>
+             </rect>
+            </property>
+           </widget>
+           <widget class="QLabel" name="xss_label_1">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>40</y>
+              <width>111</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Target or url</string>
+            </property>
+            <property name="scaledContents">
+             <bool>false</bool>
+            </property>
+           </widget>
+           <widget class="QComboBox" name="xss_comboBox">
+            <property name="geometry">
+             <rect>
+              <x>450</x>
+              <y>40</y>
+              <width>131</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <item>
+             <property name="text">
+              <string>1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string/>
+             </property>
+            </item>
+           </widget>
+          </widget>
+          <widget class="QWidget" name="csrf">
+           <attribute name="title">
+            <string>CSRF</string>
+           </attribute>
+           <widget class="QPushButton" name="csrf_pushButton">
+            <property name="geometry">
+             <rect>
+              <x>350</x>
+              <y>40</y>
+              <width>121</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>Attack</string>
+            </property>
+           </widget>
+           <widget class="QScrollArea" name="csrf_scrollArea">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>176</y>
+              <width>811</width>
+              <height>501</height>
+             </rect>
+            </property>
+            <property name="widgetResizable">
+             <bool>true</bool>
+            </property>
+            <widget class="QWidget" name="scrollAreaWidgetContents_17">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>809</width>
+               <height>499</height>
+              </rect>
+             </property>
+             <widget class="QTextBrowser" name="csrf_textBrowser">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>10</y>
+                <width>791</width>
+                <height>481</height>
+               </rect>
+              </property>
+             </widget>
+            </widget>
+           </widget>
+           <widget class="QLabel" name="csrf_label_1">
+            <property name="geometry">
+             <rect>
+              <x>11</x>
+              <y>40</y>
+              <width>91</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Target URL</string>
+            </property>
+            <property name="scaledContents">
+             <bool>false</bool>
+            </property>
+           </widget>
+           <widget class="QLineEdit" name="csrf_lineEdit">
+            <property name="geometry">
+             <rect>
+              <x>131</x>
+              <y>40</y>
+              <width>181</width>
+              <height>31</height>
+             </rect>
+            </property>
+           </widget>
+           <widget class="QLabel" name="csrf_label_2">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>100</y>
+              <width>121</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Depth to crawl</string>
+            </property>
+            <property name="scaledContents">
+             <bool>false</bool>
+            </property>
+           </widget>
+           <widget class="QComboBox" name="csrf_comboBox">
+            <property name="geometry">
+             <rect>
+              <x>140</x>
+              <y>100</y>
+              <width>131</width>
+              <height>31</height>
+             </rect>
+            </property>
+            <item>
+             <property name="text">
+              <string>1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string/>
+             </property>
+            </item>
+           </widget>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
