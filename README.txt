@@ -6,7 +6,7 @@
 #Main requirements
   python 3.9.2 or above
 
-Option 1.(clone the tool from GitHub) 1.clone the tool using below command. git clone https://github.com/ankushlakhani3/lazyhackes.git 
+       1.(clone the tool from GitHub) clone the tool using below git clone                               https://github.com/ankushlakhani3/lazyhackes.git 
         or
        1.Unzip the downloaded zip file
        2.Go to the the directory where you extracted your file
